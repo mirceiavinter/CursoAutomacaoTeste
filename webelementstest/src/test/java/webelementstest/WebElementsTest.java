@@ -125,14 +125,37 @@ public class WebElementsTest {
 		
 		//List<WebElement> options = listboxelements.getOptions();
 		
-	//	options.get(4).click();
-	//	options.get(7).click();
-	//	options.get(8).click();	
+		//	options.get(4).click();
+		//	options.get(7).click();
+		//	options.get(8).click();	
 		
-	//	assertTrue(options.get(4).isSelected());
-	//	assertTrue(options.get(7).isSelected());
-	//	assertTrue(options.get(8).isSelected());
+		//	assertTrue(options.get(4).isSelected());
+		//	assertTrue(options.get(7).isSelected());
+		//	assertTrue(options.get(8).isSelected());	
+	}
+	
+	@Test
+	public void testEscreveNomeNoCampoDentroDoIFrame() throws InterruptedException {
 		
+		driver.switchTo().frame("iframe_b");
+		
+		WebElement campoBusca = driver.findElement(By.id("s"));
+		campoBusca.sendKeys("Mirceia");
+		Thread.sleep(5000);	
+		
+		assertEquals("O nome não é igual ao esperado!", "Mirceia", campoBusca.getAttribute("value").toString());
+		
+		driver.switchTo().defaultContent();
+		
+		driver.switchTo().frame("iframe_d");
+		
+		WebElement campoSearchSelenium = driver.findElement(By.id("q"));
+		campoSearchSelenium.sendKeys("Mirceia");
+		Thread.sleep(5000);	
+		
+		assertEquals("O nome não é igual ao esperado!", "Mirceia", campoSearchSelenium.getAttribute("value").toString());
+		
+		driver.switchTo().defaultContent();
 	}
 	
 
