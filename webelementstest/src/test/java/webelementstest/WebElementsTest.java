@@ -98,21 +98,41 @@ public class WebElementsTest {
 	}
 	
 	@Test
-	public void testSelecionaDropDownListTresValores() throws InterruptedException {
+	public void testSelecionaDropDownListMultiplosValores() throws InterruptedException {
 		WebElement dropdownlist = driver.findElement(By.name("multiselectdropdown"));
 		Select listboxelements = new Select(dropdownlist);
 		
-		List<WebElement> options = listboxelements.getOptions();
-		
-		options.get(4).click();
-		options.get(7).click();
-		options.get(8).click();	
-		
-		assertTrue(options.get(4).isSelected());
-		assertTrue(options.get(7).isSelected());
-		assertTrue(options.get(8).isSelected());
+		if (listboxelements.isMultiple()) {
+			listboxelements.selectByIndex(4);
+			listboxelements.selectByIndex(7);
+			listboxelements.selectByIndex(8);
+		}
 		
 		Thread.sleep(5000);	
+		
+		List<WebElement> elementosSelecionados = listboxelements.getAllSelectedOptions();
+		
+		for (WebElement e : elementosSelecionados) {
+			System.out.println("Lista Selecionada: " + e.getText());
+			
+			boolean isSelected = ((e.getText().equals("Item 5"))
+					|| (e.getText().equals("Item 8"))
+					|| (e.getText().equals("Item 9")));
+			
+			assertTrue(isSelected);
+		}
+		listboxelements.deselectAll();
+		
+		//List<WebElement> options = listboxelements.getOptions();
+		
+	//	options.get(4).click();
+	//	options.get(7).click();
+	//	options.get(8).click();	
+		
+	//	assertTrue(options.get(4).isSelected());
+	//	assertTrue(options.get(7).isSelected());
+	//	assertTrue(options.get(8).isSelected());
+		
 	}
 	
 
