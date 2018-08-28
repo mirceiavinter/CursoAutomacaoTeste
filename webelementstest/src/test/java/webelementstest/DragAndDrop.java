@@ -43,23 +43,23 @@ public class DragAndDrop {
 	
 	@Test
 	public void testArrastaComponenteNaTela() throws InterruptedException, IOException {
-		//File scrFile;
+		File scrFile;
 		
 		WebElement boxDragOrigem = driver.findElement(By.id("draggable"));
 		WebElement boxDropDestino = driver.findElement(By.id("droppable"));
 		
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrFile , new File("C:\\Users\\aluno\\Mirceia\\Screenshot\\screenshot1.png"));
 		
 		
 		assertEquals("O texto não é igual!", "Drag me to my target", boxDragOrigem.getText());
 		assertEquals("O texto não é igual!", "Drop here", boxDropDestino.getText());
 		
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile , new File("C:\\Users\\aluno\\Mirceia\\Screenshot\\screenshot2.png"));
-		
 		new Actions(driver).dragAndDrop(boxDragOrigem, boxDropDestino).perform();
 		
 		assertEquals("O texto não é igual!", "Dropped!", boxDropDestino.getText());
+		
+		scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile , new File("C:\\Users\\aluno\\Mirceia\\Screenshot\\screenshot2.png"));
 	}
 }
