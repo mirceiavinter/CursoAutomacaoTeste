@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56645" started-at="2018-08-28T22:50:17Z" finished-at="2018-08-28T22:51:13Z">
+  <suite name="Default suite" duration-ms="23234" started-at="2018-08-29T00:49:30Z" finished-at="2018-08-29T00:49:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56645" started-at="2018-08-28T22:50:17Z" finished-at="2018-08-28T22:51:13Z">
+    <test name="Default test" duration-ms="23234" started-at="2018-08-29T00:49:30Z" finished-at="2018-08-29T00:49:53Z">
       <class name="test.datadriven.WikipediaTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4657" started-at="2018-08-28T22:50:17Z" finished-at="2018-08-28T22:50:22Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="beforeMethod" is-config="true" duration-ms="6256" started-at="2018-08-29T00:49:30Z" finished-at="2018-08-29T00:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2430" started-at="2018-08-28T22:50:22Z" data-provider="dbPaises" finished-at="2018-08-28T22:50:24Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="2355" started-at="2018-08-29T00:49:36Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:39Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="640" started-at="2018-08-28T22:50:24Z" finished-at="2018-08-28T22:50:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4307" started-at="2018-08-28T22:50:25Z" finished-at="2018-08-28T22:50:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2451" started-at="2018-08-28T22:50:29Z" data-provider="dbPaises" finished-at="2018-08-28T22:50:31Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="2072" started-at="2018-08-29T00:49:39Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:41Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="625" started-at="2018-08-28T22:50:31Z" finished-at="2018-08-28T22:50:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4510" started-at="2018-08-28T22:50:32Z" finished-at="2018-08-28T22:50:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2765" started-at="2018-08-28T22:50:37Z" data-provider="dbPaises" finished-at="2018-08-28T22:50:39Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="1974" started-at="2018-08-29T00:49:41Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:43Z">
           <params>
             <param index="0">
               <value>
@@ -60,15 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="635" started-at="2018-08-28T22:50:39Z" finished-at="2018-08-28T22:50:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4404" started-at="2018-08-28T22:50:40Z" finished-at="2018-08-28T22:50:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2494" started-at="2018-08-28T22:50:44Z" data-provider="dbPaises" finished-at="2018-08-28T22:50:47Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="2055" started-at="2018-08-29T00:49:43Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:45Z">
           <params>
             <param index="0">
               <value>
@@ -79,15 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="630" started-at="2018-08-28T22:50:47Z" finished-at="2018-08-28T22:50:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4846" started-at="2018-08-28T22:50:48Z" finished-at="2018-08-28T22:50:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2727" started-at="2018-08-28T22:50:52Z" data-provider="dbPaises" finished-at="2018-08-28T22:50:55Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="2496" started-at="2018-08-29T00:49:45Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:47Z">
           <params>
             <param index="0">
               <value>
@@ -98,15 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="617" started-at="2018-08-28T22:50:55Z" finished-at="2018-08-28T22:50:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="4635" started-at="2018-08-28T22:50:56Z" finished-at="2018-08-28T22:51:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="2760" started-at="2018-08-28T22:51:00Z" data-provider="dbPaises" finished-at="2018-08-28T22:51:03Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="1455" started-at="2018-08-29T00:49:47Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:49Z">
           <params>
             <param index="0">
               <value>
@@ -117,15 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="634" started-at="2018-08-28T22:51:03Z" finished-at="2018-08-28T22:51:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="beforeMethod" is-config="true" duration-ms="5150" started-at="2018-08-28T22:51:04Z" finished-at="2018-08-28T22:51:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="testDataDrivenExcel" duration-ms="3913" started-at="2018-08-28T22:51:09Z" data-provider="dbPaises" finished-at="2018-08-28T22:51:13Z">
+        <test-method status="PASS" signature="testDataDrivenExcel(java.lang.String)[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="testDataDrivenExcel" duration-ms="2464" started-at="2018-08-29T00:49:49Z" data-provider="dbPaises" finished-at="2018-08-29T00:49:51Z">
           <params>
             <param index="0">
               <value>
@@ -136,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataDrivenExcel -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@6a41eaa2]" name="afterMethod" is-config="true" duration-ms="622" started-at="2018-08-28T22:51:13Z" finished-at="2018-08-28T22:51:13Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.datadriven.WikipediaTest@42d80b78]" name="afterMethod" is-config="true" duration-ms="1892" started-at="2018-08-29T00:49:51Z" finished-at="2018-08-29T00:49:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
